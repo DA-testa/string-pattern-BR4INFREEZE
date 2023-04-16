@@ -25,7 +25,7 @@ def main():
         arr = rabin(pattern, text)
         print(' '.join(map(str, arr)))
     elif first_input.__contains__('F'):
-        file_name = input()
+        file_name = "06"
         if file_name.__contains__('a'):
             print("INPUT-OUTPUT ERROR")
             return
